@@ -4,9 +4,11 @@ class RacesController < ApplicationController
   skip_before_filter  :verify_authenticity_token
   
 
-
-
+def nsda
   
+end
+
+  #oiubsdaiud
   
   def index
     #non mtto il json va a html con stesso nome
