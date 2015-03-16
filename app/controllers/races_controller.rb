@@ -19,6 +19,7 @@ end
   end
   
   def new 
+    puts "Created new >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
     @race = Race.new(:user => params[:user])
    if @race.save
       render :json => { :race => @race}
